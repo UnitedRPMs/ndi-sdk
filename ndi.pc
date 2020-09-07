@@ -1,0 +1,12 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib64
+includedir=${prefix}/include/ndi-sdk
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+
+Name: NewTek NDI
+Description: NewTek NDI
+Version: 4.0
+Libs: -L${libdir} -lndi
+Cflags: -I${includedir}
