@@ -7,6 +7,6 @@ datadir=${datarootdir}
 
 Name: NewTek NDI
 Description: NewTek NDI
-Version: 4.0
+Version: 5.0
 Libs: -L${libdir} -lndi
 Cflags: -I${includedir}
